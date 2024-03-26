@@ -1,0 +1,35 @@
+name: flutter_supabase_complete
+description: A new Flutter project.
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.6 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  supabase_flutter: ^1.1.0
+
+  # Routing
+  auto_route: ^6.3.0
+
+  # Dependency injection
+  injectable: ^2.3.5
+  get_it: ^7.2.0
+
+  # Functional programming
+  fpdart: ^0.5.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  build_runner: ^2.2.0
+  flutter_lints: ^2.0.0
+  auto_route_generator: ^6.2.0
+  injectable_generator: ^2.1.5
+
+flutter:
